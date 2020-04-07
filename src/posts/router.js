@@ -146,5 +146,4 @@ router.post("/:id/comments", (req, res) => {
       });
 });
 
-console.log(Posts);
 module.exports = router; // make it available for require()
