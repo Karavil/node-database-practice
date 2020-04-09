@@ -13,6 +13,6 @@ server.get("/", (req, res) => {
   `);
 });
 
-server.listen(5000, () => {
-   console.log("\n*** Server Running on http://localhost:5000 ***\n");
+server.listen(process.env.PORT || 5000, () => {
+   console.log("\n*** Server running! ***\n");
 });
